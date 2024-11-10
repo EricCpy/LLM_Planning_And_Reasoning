@@ -1,9 +1,91 @@
 # LLM Planning
 
+## Regular ChatGPT (4o):
+Seems like my account is part of an A/B test where, if the base model doesn’t have specific information for a question, it automatically performs a web search. For instance, when I ask about "2025" conferences, it triggers a search. However, if I drop the specific year, like asking about general AI conferences, it defaults to existing model data, providing information from 2023 and 2024 events instead of performing a web search.
+
+### **Query:** Please give me the top academic AI conferences in 2025.  
+In 2025, some of the top academic AI conferences to consider for cutting-edge research and networking include:
+
+1. **AAAI (Association for the Advancement of Artificial Intelligence)**: Scheduled from February 25 to March 4 in Philadelphia, AAAI-25 will feature technical presentations, special tracks, workshops, and tutorials across a wide array of AI topics.
+
+2. **ICML (International Conference on Machine Learning)**: Known for its focus on machine learning advancements, ICML 2025 will continue to serve as a premier venue for both theoretical and applied AI research. Details on the specific date and location are expected soon.
+
+3. **NeurIPS (Conference on Neural Information Processing Systems)**: This conference, renowned for contributions to neural networks and computational neuroscience, provides a platform for research on machine learning and neural information processing. Typically held in December, it will likely offer a combination of in-person and virtual formats.
+
+4. **IEEE CAI (IEEE Conference on Artificial Intelligence)**: Scheduled for May 5-7 in Santa Clara, California, IEEE CAI 2025 will emphasize AI's industrial applications, with themes in healthcare, transportation, sustainability, and human-centered AI.
+
+5. **CVPR (Conference on Computer Vision and Pattern Recognition)**: CVPR remains essential for computer vision researchers, offering opportunities to engage with the latest in image processing, visual recognition, and deep learning developments.
+
+Attending these conferences can be beneficial for networking, exploring innovative applications, and gaining insights from industry leaders and academic peers. Each event may also offer online participation options to increase accessibility.
+
+### **Query:** Please give me the top acadamic AI conferences in 2025 sorted by date as json.
+Here are some of the top AI conferences scheduled for 2025 in JSON format, sorted by date. These events are highly regarded in the field and cover a range of AI topics from machine learning to computer vision:
+
+```json
+[
+    {
+        "name": "AI Summit",
+        "location": "San Francisco, USA",
+        "dates": "January 22-24, 2025"
+    },
+    {
+        "name": "AI in Healthcare",
+        "location": "New York, USA",
+        "dates": "March 3-5, 2025"
+    },
+    {
+        "name": "Global AI Expo",
+        "location": "London, UK",
+        "dates": "April 15-17, 2025"
+    },
+    {
+        "name": "International Conference on Learning Representations (ICLR)",
+        "location": "Kigali, Rwanda",
+        "dates": "May 5-9, 2025"
+    },
+    {
+        "name": "International Conference on Machine Learning (ICML)",
+        "location": "Vienna, Austria",
+        "dates": "July 20-25, 2025"
+    },
+    {
+        "name": "International Joint Conference on Artificial Intelligence (IJCAI)",
+        "location": "Nagoya, Japan",
+        "dates": "August 11-17, 2025"
+    },
+    {
+        "name": "European Conference on Computer Vision (ECCV)",
+        "location": "Milan, Italy",
+        "dates": "October 6-10, 2025"
+    },
+    {
+        "name": "Conference on Neural Information Processing Systems (NeurIPS)",
+        "location": "New Orleans, USA",
+        "dates": "December 8-14, 2025"
+    }
+]
+```
+
+These conferences are well-established for showcasing cutting-edge research and networking with leaders in artificial intelligence. They provide a platform for exploring interdisciplinary applications, ethical considerations, and the latest AI technologies. Each event attracts top researchers, industry professionals, and students interested in advancing the AI field.
+
+### **Query:** Please give me the top academic AI conferences in 2025, organized in a sequential order that would allow me to attend each one? I'd like to visit as many as possible.
+**Output:** To attend as many top AI conferences in 2025 as possible, you could arrange your schedule to cover key events in various fields of artificial intelligence, machine learning, and computer vision. Here’s a timeline to maximize your attendance:
+
+1. **AAAI Conference on Artificial Intelligence (AAAI-25)** - February 25 to March 4, 2025, in Philadelphia, USA. AAAI covers a wide range of AI topics, including technical paper presentations, workshops, and poster sessions, offering early-year insights into AI advancements.
+
+2. **Computer Vision and Pattern Recognition (CVPR)** - Scheduled for June 15-20, 2025, in San Diego, USA. This conference focuses on computer vision and pattern recognition, with workshops and tutorials for in-depth learning.
+
+3. **International Conference on Machine Learning (ICML)** - Expected in July 2025, with the location likely to be announced closer to the date. ICML is one of the leading venues for machine learning research, making it an essential stop if you’re interested in the latest ML techniques and applications.
+
+4. **European Conference on Computer Vision (ECCV)** - ECCV takes place in early autumn (exact dates pending), typically somewhere in Europe, and is another must-attend if your interests include computer vision and pattern recognition advancements.
+
+5. **Neural Information Processing Systems (NeurIPS)** - Slated for December 2025, typically hosted in the U.S. NeurIPS is a premier conference for neural computation and machine learning and will offer the latest in research and applications through workshops, tutorials, and presentations.
+
+By following this sequence, you can cover significant advancements across AI and machine learning research fields in 2025, while networking with leaders and experts at each event.
+
 
 ## ChatGPT Websearch:
-**Query:** Please give me the top academic AI conferences in 2025.
-**Output:**
+### **Query:** Please give me the top academic AI conferences in 2025.
 In 2025, several major academic conferences in the field of Artificial Intelligence (AI) will take place. These events provide researchers and professionals with the opportunity to present and discuss the latest developments and research findings. The standout conferences include:
 
 1. **AAAI-25 (Thirty-Ninth AAAI Conference on Artificial Intelligence)**: This conference will be held from February 25 to March 4, 2025, in Philadelphia, Pennsylvania, USA. It aims to promote AI research and foster scientific exchange between researchers and practitioners.
@@ -17,7 +99,7 @@ In 2025, several major academic conferences in the field of Artificial Intellige
 In addition to these conferences, further events covering various aspects of Artificial Intelligence are expected in 2025. It is recommended to regularly check the official websites of each conference for updated information on dates, submission deadlines, and venues.
 
 
-**Query:** Please give me the top acadamic AI conferences sorted by date as json.
+### **Query:** Please give me the top acadamic AI conferences in 2025 sorted by date as json.
 **Output:** 
 [
   {
@@ -47,7 +129,7 @@ In addition to these conferences, further events covering various aspects of Art
 ]
 
 
-**Query:** Please give me the top academic AI conferences in 2025, organized in a sequential order that would allow me to attend each one? I'd like to visit as many as possible.
+### **Query:** Please give me the top academic AI conferences in 2025, organized in a sequential order that would allow me to attend each one? I'd like to visit as many as possible.
 **Output:**
 In 2025, several major academic conferences in the field of Artificial Intelligence (AI) will take place. The following list presents these events in chronological order to enable participation in as many conferences as possible:
 

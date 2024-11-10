@@ -1,0 +1,113 @@
+{
+  "id": "159d73d2-a851-4cea-bdf7-0a9d96c3a741",
+  "version": 10,
+  "is_active": true,
+  "is_template": false,
+  "name": "Academic_AI_Conferences_2025_simple_pipeline",
+  "description": "Agent Description",
+  "executions": null,
+  "nodes": [
+    {
+      "id": "f78df839-ab99-481f-898b-7dea061ec771",
+      "block_id": "87840993-2053-44b7-8da4-187ad4ee518c",
+      "input_default": {
+        "query": "academic ai conferences 2025"
+      },
+      "metadata": {
+        "position": {
+          "x": 244.59529654656876,
+          "y": 142.8503624077532
+        }
+      },
+      "input_links": [],
+      "output_links": [
+        {
+          "id": "70018478-8176-443f-a247-a75b7eac2566",
+          "source_id": "f78df839-ab99-481f-898b-7dea061ec771",
+          "sink_id": "68333618-3057-4643-a5b1-8f172fbc844c",
+          "source_name": "results",
+          "sink_name": "prompt_values_#_SCRAPED",
+          "is_static": false
+        }
+      ]
+    },
+    {
+      "id": "68333618-3057-4643-a5b1-8f172fbc844c",
+      "block_id": "1f292d4a-41a4-4977-9684-7c8d560b9f91",
+      "input_default": {
+        "prompt": "You are an AI assistant. Based on the scraped search result below, extract and provide the top academic AI conferences in the format of a JSON list.\nScraped Content: {SCRAPED}",
+        "model": "llama-3.2-3B-instruct",
+        "prompt_values": {}
+      },
+      "metadata": {
+        "position": {
+          "x": 846.8718533304357,
+          "y": 107.64030473640707
+        }
+      },
+      "input_links": [
+        {
+          "id": "70018478-8176-443f-a247-a75b7eac2566",
+          "source_id": "f78df839-ab99-481f-898b-7dea061ec771",
+          "sink_id": "68333618-3057-4643-a5b1-8f172fbc844c",
+          "source_name": "results",
+          "sink_name": "prompt_values_#_SCRAPED",
+          "is_static": false
+        }
+      ],
+      "output_links": [
+        {
+          "id": "ae7b63a7-5b43-4045-bb6a-87486eb34c56",
+          "source_id": "68333618-3057-4643-a5b1-8f172fbc844c",
+          "sink_id": "8687a8e7-3320-49a9-81e3-cd7d9e537392",
+          "source_name": "response",
+          "sink_name": "value",
+          "is_static": false
+        }
+      ]
+    },
+    {
+      "id": "8687a8e7-3320-49a9-81e3-cd7d9e537392",
+      "block_id": "363ae599-353e-4804-937e-b2ee3cef3da4",
+      "input_default": {
+        "name": "Conferences"
+      },
+      "metadata": {
+        "position": {
+          "x": 1427.1695307818704,
+          "y": 525.69504521535
+        }
+      },
+      "input_links": [
+        {
+          "id": "ae7b63a7-5b43-4045-bb6a-87486eb34c56",
+          "source_id": "68333618-3057-4643-a5b1-8f172fbc844c",
+          "sink_id": "8687a8e7-3320-49a9-81e3-cd7d9e537392",
+          "source_name": "response",
+          "sink_name": "value",
+          "is_static": false
+        }
+      ],
+      "output_links": []
+    }
+  ],
+  "links": [
+    {
+      "id": "ae7b63a7-5b43-4045-bb6a-87486eb34c56",
+      "source_id": "68333618-3057-4643-a5b1-8f172fbc844c",
+      "sink_id": "8687a8e7-3320-49a9-81e3-cd7d9e537392",
+      "source_name": "response",
+      "sink_name": "value",
+      "is_static": false
+    },
+    {
+      "id": "70018478-8176-443f-a247-a75b7eac2566",
+      "source_id": "f78df839-ab99-481f-898b-7dea061ec771",
+      "sink_id": "68333618-3057-4643-a5b1-8f172fbc844c",
+      "source_name": "results",
+      "sink_name": "prompt_values_#_SCRAPED",
+      "is_static": false
+    }
+  ],
+  "subgraphs": {}
+}

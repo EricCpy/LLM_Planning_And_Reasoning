@@ -1,0 +1,304 @@
+{
+  "id": "90ea1b69-5f9a-45c6-a525-e069d4a28c65",
+  "version": 29,
+  "is_active": true,
+  "is_template": false,
+  "name": "Academic AI Conferences in 2025",
+  "description": "Search for Academic AI Conferences in 2025.  List for each conference the location and the date.",
+  "executions": null,
+  "nodes": [
+    {
+      "id": "9f6c9c04-c7e1-408b-8178-27ecdd7634be",
+      "block_id": "3146e4fe-2cdd-4f29-bd12-0c9d5bb4deb0",
+      "input_default": {
+        "pattern": "\\[(.*?)\\]",
+        "case_sensitive": false,
+        "dot_all": false
+      },
+      "metadata": {
+        "position": {
+          "x": -27.17670307994399,
+          "y": 956.2695371212632
+        }
+      },
+      "input_links": [
+        {
+          "id": "05f9e225-88ae-45af-8e8e-72588d866bd6",
+          "source_id": "8b039b06-8436-4ed0-acd8-52516d2839ff",
+          "sink_id": "9f6c9c04-c7e1-408b-8178-27ecdd7634be",
+          "source_name": "positive",
+          "sink_name": "text",
+          "is_static": false
+        }
+      ],
+      "output_links": [
+        {
+          "id": "5b89fb32-0700-49ad-b279-87067131a743",
+          "source_id": "9f6c9c04-c7e1-408b-8178-27ecdd7634be",
+          "sink_id": "1faaf345-618b-472f-9b61-573a330bef5b",
+          "source_name": "positive",
+          "sink_name": "items",
+          "is_static": false
+        }
+      ]
+    },
+    {
+      "id": "6c9d15e9-e8e6-4c9f-bf13-fdd500f02b82",
+      "block_id": "cc10ff7b-7753-4ff2-9af6-9399b1a7eddc",
+      "input_default": {
+        "text": "LLM generated google searches."
+      },
+      "metadata": {
+        "position": {
+          "x": -1783.464471287964,
+          "y": 899.9217166418978
+        }
+      },
+      "input_links": [],
+      "output_links": []
+    },
+    {
+      "id": "a35d80e8-385c-49f0-886d-392122eadca9",
+      "block_id": "cc10ff7b-7753-4ff2-9af6-9399b1a7eddc",
+      "input_default": {
+        "text": "Simple search."
+      },
+      "metadata": {
+        "position": {
+          "x": -1808.987374779196,
+          "y": 1602.468602040809
+        }
+      },
+      "input_links": [],
+      "output_links": []
+    },
+    {
+      "id": "62b1c28a-8920-4783-aa96-cd675240f3a1",
+      "block_id": "1f292d4a-41a4-4977-9684-7c8d560b9f91",
+      "input_default": {
+        "prompt": "You are an AI assistant. Based on the scraped search result below, extract and provide the top academic AI conferences in the format of a JSON list.\n                    Scraped Content: {SCRAPED}",
+        "model": "llama-3.2-3B-instruct",
+        "prompt_values": {}
+      },
+      "metadata": {
+        "position": {
+          "x": -55.245783290794975,
+          "y": 1662.8356847904827
+        }
+      },
+      "input_links": [
+        {
+          "id": "2dc30f51-2d4c-48fd-ad5f-3448e7b5c10f",
+          "source_id": "b28b8a0e-30b5-4948-b6bc-23f44d98c04f",
+          "sink_id": "62b1c28a-8920-4783-aa96-cd675240f3a1",
+          "source_name": "results",
+          "sink_name": "prompt_values_#_Scraped",
+          "is_static": false
+        }
+      ],
+      "output_links": [
+        {
+          "id": "6172e63b-d999-4c83-ba34-4f65a0bac7fc",
+          "source_id": "62b1c28a-8920-4783-aa96-cd675240f3a1",
+          "sink_id": "442a146f-0b30-4f58-a2a2-d661546e6d61",
+          "source_name": "response",
+          "sink_name": "value",
+          "is_static": false
+        }
+      ]
+    },
+    {
+      "id": "1faaf345-618b-472f-9b61-573a330bef5b",
+      "block_id": "f66a3543-28d3-4ab5-8945-9b336371e2ce",
+      "input_default": {},
+      "metadata": {
+        "position": {
+          "x": -1287.6141311134247,
+          "y": 1577.2045873870552
+        }
+      },
+      "input_links": [
+        {
+          "id": "5b89fb32-0700-49ad-b279-87067131a743",
+          "source_id": "9f6c9c04-c7e1-408b-8178-27ecdd7634be",
+          "sink_id": "1faaf345-618b-472f-9b61-573a330bef5b",
+          "source_name": "positive",
+          "sink_name": "items",
+          "is_static": false
+        }
+      ],
+      "output_links": [
+        {
+          "id": "f9bb27ec-f3ef-4127-a489-ac616dfa4954",
+          "source_id": "1faaf345-618b-472f-9b61-573a330bef5b",
+          "sink_id": "b28b8a0e-30b5-4948-b6bc-23f44d98c04f",
+          "source_name": "item",
+          "sink_name": "query",
+          "is_static": false
+        }
+      ]
+    },
+    {
+      "id": "442a146f-0b30-4f58-a2a2-d661546e6d61",
+      "block_id": "363ae599-353e-4804-937e-b2ee3cef3da4",
+      "input_default": {},
+      "metadata": {
+        "position": {
+          "x": 575.8534349439104,
+          "y": 1944.58511734441
+        }
+      },
+      "input_links": [
+        {
+          "id": "6172e63b-d999-4c83-ba34-4f65a0bac7fc",
+          "source_id": "62b1c28a-8920-4783-aa96-cd675240f3a1",
+          "sink_id": "442a146f-0b30-4f58-a2a2-d661546e6d61",
+          "source_name": "response",
+          "sink_name": "value",
+          "is_static": false
+        }
+      ],
+      "output_links": []
+    },
+    {
+      "id": "4c263171-ee54-47ec-bc3c-5a7ae3d7f5f0",
+      "block_id": "1f292d4a-41a4-4977-9684-7c8d560b9f91",
+      "input_default": {
+        "prompt": "Generate google search queries that could help to find academic ai conferences in 2025. Output this queries as a string array like conferences = [\"Query1\", \"Query2\", \"Query3\"]. Dont use any line breaks.",
+        "model": "llama-3.2-3B-instruct"
+      },
+      "metadata": {
+        "position": {
+          "x": -1275.6028973242717,
+          "y": 791.4717430481167
+        }
+      },
+      "input_links": [],
+      "output_links": [
+        {
+          "id": "a7ea2a93-9f3e-4ad2-a1b8-647dade989c4",
+          "source_id": "4c263171-ee54-47ec-bc3c-5a7ae3d7f5f0",
+          "sink_id": "8b039b06-8436-4ed0-acd8-52516d2839ff",
+          "source_name": "response",
+          "sink_name": "text",
+          "is_static": false
+        }
+      ]
+    },
+    {
+      "id": "8b039b06-8436-4ed0-acd8-52516d2839ff",
+      "block_id": "3146e4fe-2cdd-4f29-bd12-0c9d5bb4deb0",
+      "input_default": {
+        "pattern": "conferences\\s*=\\s*\\[(.*?)\\]"
+      },
+      "metadata": {
+        "position": {
+          "x": -640.1618506288526,
+          "y": 907.871302783173
+        }
+      },
+      "input_links": [
+        {
+          "id": "a7ea2a93-9f3e-4ad2-a1b8-647dade989c4",
+          "source_id": "4c263171-ee54-47ec-bc3c-5a7ae3d7f5f0",
+          "sink_id": "8b039b06-8436-4ed0-acd8-52516d2839ff",
+          "source_name": "response",
+          "sink_name": "text",
+          "is_static": false
+        }
+      ],
+      "output_links": [
+        {
+          "id": "05f9e225-88ae-45af-8e8e-72588d866bd6",
+          "source_id": "8b039b06-8436-4ed0-acd8-52516d2839ff",
+          "sink_id": "9f6c9c04-c7e1-408b-8178-27ecdd7634be",
+          "source_name": "positive",
+          "sink_name": "text",
+          "is_static": false
+        }
+      ]
+    },
+    {
+      "id": "b28b8a0e-30b5-4948-b6bc-23f44d98c04f",
+      "block_id": "87840993-2053-44b7-8da4-187ad4ee518c",
+      "input_default": {},
+      "metadata": {
+        "position": {
+          "x": -634.1535245961657,
+          "y": 1675.834288631499
+        }
+      },
+      "input_links": [
+        {
+          "id": "f9bb27ec-f3ef-4127-a489-ac616dfa4954",
+          "source_id": "1faaf345-618b-472f-9b61-573a330bef5b",
+          "sink_id": "b28b8a0e-30b5-4948-b6bc-23f44d98c04f",
+          "source_name": "item",
+          "sink_name": "query",
+          "is_static": false
+        }
+      ],
+      "output_links": [
+        {
+          "id": "2dc30f51-2d4c-48fd-ad5f-3448e7b5c10f",
+          "source_id": "b28b8a0e-30b5-4948-b6bc-23f44d98c04f",
+          "sink_id": "62b1c28a-8920-4783-aa96-cd675240f3a1",
+          "source_name": "results",
+          "sink_name": "prompt_values_#_Scraped",
+          "is_static": false
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "id": "05f9e225-88ae-45af-8e8e-72588d866bd6",
+      "source_id": "8b039b06-8436-4ed0-acd8-52516d2839ff",
+      "sink_id": "9f6c9c04-c7e1-408b-8178-27ecdd7634be",
+      "source_name": "positive",
+      "sink_name": "text",
+      "is_static": false
+    },
+    {
+      "id": "a7ea2a93-9f3e-4ad2-a1b8-647dade989c4",
+      "source_id": "4c263171-ee54-47ec-bc3c-5a7ae3d7f5f0",
+      "sink_id": "8b039b06-8436-4ed0-acd8-52516d2839ff",
+      "source_name": "response",
+      "sink_name": "text",
+      "is_static": false
+    },
+    {
+      "id": "2dc30f51-2d4c-48fd-ad5f-3448e7b5c10f",
+      "source_id": "b28b8a0e-30b5-4948-b6bc-23f44d98c04f",
+      "sink_id": "62b1c28a-8920-4783-aa96-cd675240f3a1",
+      "source_name": "results",
+      "sink_name": "prompt_values_#_Scraped",
+      "is_static": false
+    },
+    {
+      "id": "5b89fb32-0700-49ad-b279-87067131a743",
+      "source_id": "9f6c9c04-c7e1-408b-8178-27ecdd7634be",
+      "sink_id": "1faaf345-618b-472f-9b61-573a330bef5b",
+      "source_name": "positive",
+      "sink_name": "items",
+      "is_static": false
+    },
+    {
+      "id": "f9bb27ec-f3ef-4127-a489-ac616dfa4954",
+      "source_id": "1faaf345-618b-472f-9b61-573a330bef5b",
+      "sink_id": "b28b8a0e-30b5-4948-b6bc-23f44d98c04f",
+      "source_name": "item",
+      "sink_name": "query",
+      "is_static": false
+    },
+    {
+      "id": "6172e63b-d999-4c83-ba34-4f65a0bac7fc",
+      "source_id": "62b1c28a-8920-4783-aa96-cd675240f3a1",
+      "sink_id": "442a146f-0b30-4f58-a2a2-d661546e6d61",
+      "source_name": "response",
+      "sink_name": "value",
+      "is_static": false
+    }
+  ],
+  "subgraphs": {}
+}
