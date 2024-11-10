@@ -1,6 +1,6 @@
-Anecdotal Evaluation of What Yields Better Results:**
+**Anecdotal Evaluation:**
 
-1. [ ] Bing AI Search
+1. [x] Bing AI Search (Copilot)
 2. [x] Regular ChatGPT  
 3. [x] ChatGPT Search Feature  
 4. [x] AutoGPT
