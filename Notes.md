@@ -1,5 +1,130 @@
 # LLM Planning
 
+## Bing AI Websearch (Copilot)
+### **Query:** Please give me the top academic AI conferences in 2025.
+**Output:** Here are some of the top academic AI conferences to look out for in 2025:
+
+1. **NeurIPS 2025**: One of the most prestigious conferences in AI, focusing on machine learning and computational neuroscience.
+2. **ICML 2025**: The International Conference on Machine Learning, showcasing cutting-edge research in machine learning.
+3. **AAAI Conference on Artificial Intelligence**: A premier conference covering various aspects of AI, including machine learning, natural language processing, and robotics.
+4. **IJCAI 2025**: The International Joint Conference on Artificial Intelligence, known for its comprehensive coverage of AI research.
+5. **CVPR 2025**: The Conference on Computer Vision and Pattern Recognition, focusing on computer vision and pattern recognition technologies¹(https://www.datacamp.com/blog/top-ai-conferences)²(https://iotworldmagazine.com/2024/03/29/2202/list-of-top-24-ai-conferences-in-2024-and-2025)³(https://www.restack.io/p/ai-conferences-answer-2025).
+
+These conferences are excellent opportunities to stay updated with the latest advancements in AI and network with leading experts in the field. Are you planning to attend any of these?
+
+Quelle: Unterhaltung mit Copilot, 10.11.2024
+(1) Top 10 AI Conferences for 2025 - DataCamp. https://www.datacamp.com/blog/top-ai-conferences.
+(2) List of Top 24 AI Conferences in 2024 and 2025 – IoT Magazine. https://iotworldmagazine.com/2024/03/29/2202/list-of-top-24-ai-conferences-in-2024-and-2025.
+(3) Top AI Conferences to Attend in 2025 | Restackio. https://www.restack.io/p/ai-conferences-answer-2025.
+(4) Top AI in Education Conferences 2025 | Learn & Innovate. https://aisuperior.com/ai-in-education-conferences/.
+(5) Top AI Conferences to Attend in 2024 & 2025 - Cheatsheet. https://cheatsheet.md/ai-events-2024-2025.en.
+(6) Top AI in Education Conferences to Attend in 2025. https://www.panoramaed.com/blog/ai-education-conferences.
+
+### **Query:** Please give me the top acadamic AI conferences in 2025 sorted by date as json.
+**Output:** Sure! Here are some of the top academic AI conferences in 2025, sorted by date, in JSON format:
+
+```json
+[
+    {
+        "name": "Future of Education Technology Conference (FETC 2025)",
+        "date": "January 14-17, 2025",
+        "location": "Orlando, Florida"
+    },
+    {
+        "name": "AAAI Conference on Artificial Intelligence (AAAI 2025)",
+        "date": "February 12-17, 2025",
+        "location": "Vancouver, Canada"
+    },
+    {
+        "name": "International Conference on Learning Representations (ICLR 2025)",
+        "date": "May 5-9, 2025",
+        "location": "Vienna, Austria"
+    },
+    {
+        "name": "SuperAI Conference",
+        "date": "June 18-19, 2025",
+        "location": "Marina Bay Sands, Singapore"
+    },
+    {
+        "name": "International Conference on Machine Learning (ICML 2025)",
+        "date": "July 6-12, 2025",
+        "location": "Honolulu, Hawaii"
+    },
+    {
+        "name": "International Joint Conference on Artificial Intelligence (IJCAI 2025)",
+        "date": "August 10-16, 2025",
+        "location": "Nagoya, Japan"
+    },
+    {
+        "name": "AI Expo Europe",
+        "date": "September 12-13, 2025",
+        "location": "Amsterdam, Netherlands"
+    },
+    {
+        "name": "NeurIPS 2025",
+        "date": "December 8-14, 2025",
+        "location": "New Orleans, Louisiana"
+    }
+]
+```
+
+These conferences cover a wide range of AI topics and are great opportunities for learning and networking¹(https://www.datacamp.com/blog/top-ai-conferences)²(https://iotworldmagazine.com/2024/03/29/2202/list-of-top-24-ai-conferences-in-2024-and-2025)³(https://aisuperior.com/ai-in-education-conferences/)⁴(https://www.restack.io/p/ai-conferences-answer-2025)⁵(https://cheatsheet.md/ai-events-2024-2025.en). If you need more details about any specific conference, feel free to ask!
+
+Quelle: Unterhaltung mit Copilot, 10.11.2024
+(1) Top 10 AI Conferences for 2025 - DataCamp. https://www.datacamp.com/blog/top-ai-conferences.
+(2) List of Top 24 AI Conferences in 2024 and 2025 – IoT Magazine. https://iotworldmagazine.com/2024/03/29/2202/list-of-top-24-ai-conferences-in-2024-and-2025.
+(3) Top AI in Education Conferences 2025 | Learn & Innovate. https://aisuperior.com/ai-in-education-conferences/.
+(4) Top AI Conferences to Attend in 2025 | Restackio. https://www.restack.io/p/ai-conferences-answer-2025.
+(5) Top AI Conferences to Attend in 2024 & 2025 - Cheatsheet. https://cheatsheet.md/ai-events-2024-2025.en.
+(6) Top AI in Education Conferences to Attend in 2025. https://www.panoramaed.com/blog/ai-education-conferences.
+
+### **Query:** Please give me the top academic AI conferences in 2025, organized in a sequential order that would allow me to attend each one? I'd like to visit as many as possible.  
+**Output**: Sure, here are some of the top academic AI conferences in 2025, organized sequentially to help you plan your travel:
+
+1. **AAAI Conference on Artificial Intelligence (AAAI 2025)**
+   - **Date**: February 12-17, 2025
+   - **Location**: Vancouver, Canada
+
+2. **International Conference on Learning Representations (ICLR 2025)**
+   - **Date**: April 27 - May 1, 2025
+   - **Location**: Addis Ababa, Ethiopia
+
+3. **International Conference on Robotics and Automation (ICRA 2025)**
+   - **Date**: May 26-30, 2025
+   - **Location**: Seattle, USA
+
+4. **International Conference on Machine Learning (ICML 2025)**
+   - **Date**: July 6-12, 2025
+   - **Location**: Vienna, Austria
+
+5. **Conference on Computer Vision and Pattern Recognition (CVPR 2025)**
+   - **Date**: June 16-20, 2025
+   - **Location**: New Orleans, USA
+
+6. **International Joint Conference on Artificial Intelligence (IJCAI 2025)**
+   - **Date**: August 10-16, 2025
+   - **Location**: Yokohama, Japan
+
+7. **European Conference on Computer Vision (ECCV 2025)**
+   - **Date**: October 6-10, 2025
+   - **Location**: Glasgow, Scotland
+
+8. **Neural Information Processing Systems (NeurIPS 2025)**
+   - **Date**: December 8-14, 2025
+   - **Location**: Montreal, Canada
+
+This schedule should allow you to attend each conference with enough time for travel and preparation in between. Enjoy your journey through the world of AI! 🚀
+
+Is there anything else you need help with?
+
+Quelle: Unterhaltung mit Copilot, 10.11.2024
+(1) Top 10 AI Conferences for 2025 - DataCamp. https://www.datacamp.com/blog/top-ai-conferences.
+(2) List of Top 24 AI Conferences in 2024 and 2025 – IoT Magazine. https://iotworldmagazine.com/2024/03/29/2202/list-of-top-24-ai-conferences-in-2024-and-2025.
+(3) Top AI in Education Conferences 2025 | Learn & Innovate. https://aisuperior.com/ai-in-education-conferences/.
+(4) Top AI Conferences to Attend in 2024 & 2025 - Cheatsheet. https://cheatsheet.md/ai-events-2024-2025.en.
+(5) Top AI in Education Conferences to Attend in 2025. https://www.panoramaed.com/blog/ai-education-conferences.
+
+
 ## Regular ChatGPT (4o):
 Seems like my account is part of an A/B test where, if the base model doesn’t have specific information for a question, it automatically performs a web search. For instance, when I ask about "2025" conferences, it triggers a search. However, if I drop the specific year, like asking about general AI conferences, it defaults to existing model data, providing information from 2023 and 2024 events instead of performing a web search.
 
