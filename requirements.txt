@@ -5,6 +5,7 @@ selenium
 pydantic
 markdownify
 huggingface-hub
+qdrant-client # vector database
 
 lm-format-enforcer
 langchain-text-splitters

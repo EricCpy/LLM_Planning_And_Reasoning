@@ -1,3 +1,4 @@
 downloads
 llama-cpp-python
 .venv
+__pycache__

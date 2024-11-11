@@ -1,329 +1,299 @@
 {
     "conferences": [
         {
-            "name": "Future of AI 2024",
-            "location": "London, UK",
-            "date": "Nov 6, 2024 - Nov 7, 2024"
+            "name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition 2025",
+            "location": "Music City Center, Nashville TN",
+            "date": "Wed June 11th - Sun June 15th, 2025"
         },
         {
-            "name": "9th Middle East Enterprise AI & Analyitcs Forum",
-            "location": "Dubai, UAE",
-            "date": "Nov 7, 2024"
-        },
-        {
-            "name": "10th Middle East Enterprise AI & Analyitcs Forum",
-            "location": "Muscat, Oman",
-            "date": "Nov 14, 2024"
-        },
-        {
-            "name": "QCon San Francisco",
-            "location": "San Francisco, CA",
-            "date": "Nov 18, 2024 - Nov 20, 2024"
-        },
-        {
-            "name": "Microsoft Ignite",
-            "location": "Chicago, IL",
-            "date": "Nov 19, 2024 - Nov 22, 2024"
-        },
-        {
-            "name": "Generative AI Summit - Toronto",
-            "location": "Toronto, Canada",
-            "date": "Nov 20, 2024"
-        },
-        {
-            "name": "ML and AI Model Development and Governance",
-            "location": "Amsterdam‚ Netherlands",
-            "date": "Nov 27, 2024 - Nov 29, 2024"
-        },
-        {
-            "name": "AWS re:invent 2024",
-            "location": "Las Vegas, NV",
-            "date": "Dec 2, 2024 - Dec 6, 2024"
-        },
-        {
-            "name": "Generative AI - AI Impact LA",
-            "location": "Los Angeles, CA",
-            "date": "Dec 11, 2024"
-        },
-        {
-            "name": "The AI Summit New York",
-            "location": "New York City, NY",
-            "date": "Dec 11, 2024 - Dec 12, 2024"
-        },
-        {
-            "name": "Global AI Show",
-            "location": "Dubai, UAE",
-            "date": "Dec 12, 2024 - Dec 13, 2024"
-        },
-        {
-            "name": "AI Everything Global",
-            "location": "Dubai, UAE",
-            "date": "Feb 4, 2025 - Feb 6, 2025"
-        },
-        {
-            "name": "TechEx Global",
-            "location": "London, UK",
-            "date": "Feb 5, 2025 - Feb 6, 2025"
-        },
-        {
-            "name": "EVOLVECON",
-            "location": "Nashville, TN",
-            "date": "Feb 10, 2025 - Feb 13, 2025"
-        },
-        {
-            "name": "World AI Cannes Festival",
-            "location": "Cannes, France",
-            "date": "Feb 13, 2025 - Feb 15, 2025"
-        },
-        {
-            "name": "HumanX",
-            "location": "Las Vegas, NV",
-            "date": "Mar 10, 2025 - Mar 13, 2025"
-        },
-        {
-            "name": "Data Innovation Summit 2025",
-            "location": "Kistamassan, Stockhom",
-            "date": "May 7, 2025 - May 8, 2025"
-        },
-        {
-            "name": "Data Science Next Conference",
-            "location": "Amsterdam, Netherlands",
-            "date": "May 7, 2025 - May 9, 2025"
-        },
-        {
-            "name": "AI & Machine Learning Summit",
-            "location": "Boston, MA",
-            "date": "May 14, 2025 - May 15, 2025"
-        },
-        {
-            "name": "TechEx North America",
-            "location": "Santa Clara, CA",
-            "date": "Jun 4, 2025 - Jun 5, 2025"
-        },
-        {
-            "name": "ICCV 2025",
+            "name": "ICLR 2025",
             "location": "null",
             "date": "null"
         },
         {
-            "name": "ECCV 2025",
+            "name": "ICML 2025",
             "location": "null",
             "date": "null"
         },
         {
-            "name": "ICCVPR 2025",
-            "location": "null",
-            "date": "null"
-        },
-        {
-            "name": "ACCV 2025",
-            "location": "null",
-            "date": "null"
-        },
-        {
-            "name": "ICPR 2025",
+            "name": "NeurIPS 2025",
             "location": "null",
             "date": "null"
         },
         {
             "name": "Recent Advances in Natural Language Processing 2025",
             "location": "Cherno More Hotel",
-            "date": "8 Sep 2025 to 10 Sep 2025"
+            "date": "8/9/2025"
+        },
+        {
+            "name": "Shared Tasks for the Conference 'Recent Advances in Natural Language Processing' 2025",
+            "location": "Cherno More Hotel",
+            "date": "11/9/2025"
         },
         {
             "name": "SyntaxFest 2025",
             "location": "Ljubljana, Slovenia",
-            "date": "26 Aug 2025 to 29 Aug 2025"
+            "date": "26/28/2025"
         },
         {
             "name": "Interspeech 2025: Call for papers",
             "location": "Rotterdam Ahoy Convention Centre",
-            "date": "17 Aug 2025"
+            "date": "17/8/2025"
         },
         {
-            "name": "20th Machine Translation Summit (MT Summit 2025",
-            "location": "Uni-ÓMail",
-            "date": "25 Jun 2025 to 27 Jun 2025"
+            "name": "Call for Papers: 20th Machine Translation Summit (MT Summit 2025",
+            "location": "Uni-Mail",
+            "date": "25/27/6/2025"
         },
         {
             "name": "NAACL 2025 Call for System Demonstrations",
             "location": "New Mexico",
-            "date": "30 Apr 2025 to 2 May 2025"
+            "date": "30/4/2025"
         },
         {
-            "name": "NAACL 2025 Main Conference",
+            "name": "NAACL Student Research Workshop (SRW) 2025",
             "location": "Albuquerque",
-            "date": "29 Apr 2025 to 4 May 2025"
+            "date": "30/4/2025"
         },
         {
-            "name": "Call for Nominations: The BCS IRSG Karen Spärck Jones (KSJ) Award 2024",
-            "location": "ECIR 2025",
-            "date": "6 Apr 2025 to 10 Apr 2025"
+            "name": "First Call for Papers: NAACL 2025 Main Conference",
+            "location": "Albuquerque",
+            "date": "29/4/2025"
         },
         {
-            "name": "Natural Language Processing for Computer-Assisted Language Learning",
-            "location": "Hestia Hotel Europa",
-            "date": "5 Mar 2025"
-        },
-        {
-            "name": "Eighth Workshop on the Use of Computational Methods in the Study of Endangered Languages",
-            "location": "Honolulu, Hawai’i",
-            "date": "4 Mar 2025 to 5 Mar 2025"
-        },
-        {
-            "name": "Call for papers: NoDaLiDa/Baltic-HLT 2025",
-            "location": "Hestia Hotel Europa",
-            "date": "2 Mar 2025 to 5 Mar 2025"
-        },
-        {
-            "name": "The Second Workshop in South East Asian Language Processing (co-located with COLING 2025",
+            "name": "Second Call for Main Conference Papers - COLING 2025",
             "location": "Abu Dhabi",
-            "date": "20 Jan 2025"
-        },
-        {
-            "name": "Call For Papers: RegNLP 2025 – Regulatory Natural Language Processing Workshop",
-            "location": "Abu Dhabi",
-            "date": "20 Jan 2025"
-        },
-        {
-            "name": "COLING 2025",
-            "location": "Abu Dhabi, UAE",
-            "date": "January 19-24, 2025"
+            "date": "19/1/2025"
         },
         {
             "name": "The Twelfth Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial) 2025",
             "location": "COLING 2025",
-            "date": "19 Jan 2025"
+            "date": "19/1/2025"
         },
         {
-            "name": "International Workshop on Nakba Narratives as Language Resources",
-            "location": "Virtual",
-            "date": "19 Jan 2025"
-        },
-        {
-            "name": "CVPR",
+            "name": "CVPR 2025",
             "location": "Nashville TN",
-            "date": "Wed June 11th – Sun June 15th, 2025"
+            "date": "June 10-17, 2025"
         },
         {
-            "name": "NeurIPS 2025",
-            "location": "Vancouver, Canada",
-            "date": "08/14/2025"
+            "name": "ICCV 2025",
+            "location": "Paris, France",
+            "date": "September 30-October 6, 2023"
         },
         {
-            "name": "ICML 2025",
-            "location": "Sydney, Australia",
-            "date": "07/11/2025"
+            "name": "ECCV 2025",
+            "location": "Milano, Italy",
+            "date": "September 29-October 4, 2024"
+        },
+        {
+            "name": "ICPR 2025",
+            "location": "Kolkata, India",
+            "date": "December 1-5, 2024"
+        },
+        {
+            "name": "ICIP 2025",
+            "location": "Tucson, AZ",
+            "date": "February 28-March 4, 2025"
+        },
+        {
+            "name": "ACCV 2025",
+            "location": "Hanoi, Vietnam",
+            "date": "December 8-12, 2024"
+        },
+        {
+            "name": "CVCI 2025",
+            "location": "Hong Kong",
+            "date": "Jan 10, 2025 - Jan 12, 2025"
+        },
+        {
+            "name": "ROBOVIS 2025",
+            "location": "Porto, Portugal",
+            "date": "Feb 25, 2025 - Feb 27, 2025"
+        },
+        {
+            "name": "BIOIMAGING 2025",
+            "location": "Porto, Portugal",
+            "date": "Feb 20, 2025 - Feb 22, 2025"
+        },
+        {
+            "name": "VISAPP 2025",
+            "location": "Porto, Portugal",
+            "date": "Feb 26, 2025 - Feb 28, 2025"
+        },
+        {
+            "name": "ICRMV 2025",
+            "location": "Shanghai, China",
+            "date": "Jan 10, 2025 - Jan 12, 2025"
+        },
+        {
+            "name": "CFP-CIPCV-EI/SCOPUS 2025",
+            "location": "Hangzhou, China",
+            "date": "May 16, 2025 - May 18, 2025"
+        },
+        {
+            "name": "ICCTech 2025",
+            "location": "Kuala Lumpur, Malaysia",
+            "date": "Feb 20, 2025 - Feb 23, 2025"
+        },
+        {
+            "name": "IVSP--Ei 2025",
+            "location": "Kawasaki, Japan",
+            "date": "Mar 4, 2025 - Mar 6, 2025"
+        },
+        {
+            "name": "28th European Conference on Artificial Intelligence",
+            "location": "Bologna",
+            "date": "25-30 October 2025"
         },
         {
             "name": "AAAI 2025",
-            "location": "Philadelphia, USA",
-            "date": "February 25 - March 04, 2025"
+            "location": "San Francisco",
+            "date": "12-16 February 2025"
         },
         {
-            "name": "AI for Good Global Summit",
-            "location": "Geneva, Switzerland",
-            "date": "05/2025"
+            "name": "IJCAI 2025",
+            "location": "Tokyo",
+            "date": "23-29 July 2025"
         },
         {
-            "name": "Women in Machine Learning (WiML) Workshop",
-            "location": "TBD",
-            "date": "TBD"
+            "name": "NIPS 2025",
+            "location": "Vancouver",
+            "date": "8-14 December 2025"
         },
         {
-            "name": "International Conference on Artificial Intelligence and Machine Learning",
-            "location": "null",
-            "date": "12/05/2025"
+            "name": "SXSW Conference",
+            "location": "Austin, TX, USA",
+            "date": "07/15/2025"
         },
         {
-            "name": "Air and Missile Defence Technology",
+            "name": "Conversational AI & Customer Experience",
+            "location": "Munich, Germany",
+            "date": "06/07/2024"
+        },
+        {
+            "name": "Computer Vision Summit London",
+            "location": "London, UK",
+            "date": "07/11/2024"
+        },
+        {
+            "name": "Data Science Salon San Francisco",
+            "location": "San Francisco, CA, USA",
+            "date": "07/07/2024"
+        },
+        {
+            "name": "Middle East Enterprise AI & Analytics Summit",
+            "location": "Dubai, UAE",
+            "date": "07/07/2024"
+        },
+        {
+            "name": "AI for Marketers Summit",
+            "location": "Online",
+            "date": "11/12/2024"
+        },
+        {
+            "name": "QCon",
+            "location": "San Francisco, CA, USA",
+            "date": "11/18/2024"
+        },
+        {
+            "name": "Big Data Conference Europe",
+            "location": "Vilnius, Lithuania",
+            "date": "11/19/2024"
+        },
+        {
+            "name": "MLCON Berlin",
+            "location": "Berlin, Germany",
+            "date": "11/25/2024"
+        },
+        {
+            "name": "AI World Congress",
+            "location": "London, UK",
+            "date": "11/27/2024"
+        },
+        {
+            "name": "The AI Summit",
+            "location": "New York, NY, USA",
+            "date": "12/11/2024"
+        },
+        {
+            "name": "Ai Everything",
+            "location": "Dubai, UAE",
+            "date": "02/05/2025"
+        },
+        {
+            "name": "AI & Big Data Expo",
+            "location": "London, UK",
+            "date": "02/05/2025"
+        },
+        {
+            "name": "LEAP",
+            "location": "Riyadh, Saudi Arabia",
+            "date": "02/10/2025"
+        },
+        {
+            "name": "CISO Sydney",
+            "location": "Sydney, Australia",
+            "date": "02/11/2025"
+        },
+        {
+            "name": "Deep Learning & Advanced ML Summit",
+            "location": "San Jose, CA, USA",
+            "date": "02/11/2025"
+        },
+        {
+            "name": "Chief AI Officer Summit UK",
+            "location": "London, UK",
+            "date": "02/12/2025"
+        },
+        {
+            "name": "International Conference on AI & Data Science",
+            "location": "Dubai, UAE",
+            "date": "02/13/2025"
+        },
+        {
+            "name": "MWC Barcelona",
+            "location": "Barcelona, Spain",
+            "date": "03/03/2025"
+        },
+        {
+            "name": "HRO Today HR Data Analytics and AI Summit",
+            "location": "Atlanta, GA, USA",
+            "date": "03/04/2025"
+        },
+        {
+            "name": "International Conference on Computer Vision (ICCV 2025)”, ",
             "location": "null",
             "date": "null"
         },
         {
-            "name": "AISTATS 2025",
-            "location": "Phuket, Thailand",
-            "date": "May 03-05, 2025"
+            "name": "European Conference on Computer Vision (ECCV 2025)”, ",
+            "location": "null",
+            "date": "null"
         },
         {
-            "name": "CVPR 2025",
-            "location": "Nashville, Tennessee, USA",
-            "date": "June 10-17, 2025"
+            "name": "ICCVPR 2025 (International Conference on Computer Vision and Pattern Recognition)”, ",
+            "location": "null",
+            "date": "null"
         },
         {
-            "name": "NAACL 2025",
-            "location": "Albuquerque, New Mexico, USA",
-            "date": "April 29 - May 4, 2024"
+            "name": "Asian Conference on Computer Vision (ACCV 2025)”, ",
+            "location": "null",
+            "date": "null"
         },
         {
-            "name": "ICLR 2025",
-            "location": "Singapore",
-            "date": "Apr 24-28, 2025"
+            "name": "ICPR 2025 (International Conference on Pattern Recognition)”, ",
+            "location": "null",
+            "date": "null"
         },
         {
-            "name": "LoG 2024",
-            "location": "Virtual, free to attend",
-            "date": "November 26 - November 29, 2024"
+            "name": "RANLP 2025",
+            "location": "Cherno More Hotel, Varna, Bulgaria",
+            "date": "8-10 September 2025"
         },
         {
-            "name": "ECIR 2025",
-            "location": "Lucca, Tuscany, Italy",
-            "date": "April 6 - April 10, 2025"
-        },
-        {
-            "name": "WACV 2025",
-            "location": "Tucson, Arizona",
-            "date": "Feb 28 – Mar 4, 2025"
-        },
-        {
-            "name": "AAMAS 2025",
-            "location": "Detroit, Michigan, USA",
-            "date": "May 19 - May 23, 2025"
-        },
-        {
-            "name": "CHI 2025",
-            "location": "Yokohama, Japan",
-            "date": "April 26 - May 01, 2025"
-        },
-        {
-            "name": "WSDM 2025",
-            "location": "Hannover, Germany",
-            "date": "March 10-14, 2025"
-        },
-        {
-            "name": "Iberamia 2024",
-            "location": "Montevideo, Uruguay",
-            "date": "November 13-15, 2024"
-        },
-        {
-            "name": "NeurIPS [Dataset and Benchmarks Track] 2024",
-            "location": "Vancouver, Canada",
-            "date": "December 9 - December 15, 2024"
-        },
-        {
-            "name": "ICRA 2025",
-            "location": "Atlanta, USA",
-            "date": "May 19 - May 23, 2025"
-        },
-        {
-            "name": "BMVC 2024",
-            "location": "Glasgow, UK",
-            "date": "November 25 - November 28, 2024"
-        },
-        {
-            "name": "ICASSP 2025",
-            "location": "Hyderabad, India",
-            "date": "April 6-11, 2025"
-        },
-        {
-            "name": "KIL 2024",
-            "location": "Barcelona, Spain",
-            "date": "August 25, 2024"
-        },
-        {
-            "name": "ISMIR 2024",
-            "location": "San Francisco, California, USA",
-            "date": "November 10-14, 2024"
+            "name": "31st International Conference on Computational Linguistics (COLING 2025)",
+            "location": "Abu Dhabi National Exhibition Centre (ADNEC)",
+            "date": "19/01/2025"
         }
     ]
 }

@@ -1,0 +1,319 @@
+{
+    "conferences": [
+        {
+            "name": "Clean Architecture Masterclass",
+            "location": "Online",
+            "date": "2024-11-28"
+        },
+        {
+            "name": "Clean Code: The Next Level",
+            "location": "Online",
+            "date": "2024-12-05"
+        },
+        {
+            "name": "The Principal Dev – Masterclass for Tech Leads",
+            "location": "Online",
+            "date": "2024-12-15"
+        },
+        {
+            "name": "Modern Software Development with TDD",
+            "location": "Online",
+            "date": "2024-12-16"
+        },
+        {
+            "name": "CDAO Nordics",
+            "location": "Stockholm",
+            "date": "2024-11-13"
+        },
+        {
+            "name": "GDG Bucharest DevFest 2024",
+            "location": "Bucharest",
+            "date": "2024-11-13"
+        },
+        {
+            "name": "Commvault SHIFT Zurich 2024",
+            "location": "Zurich",
+            "date": "2024-11-13"
+        },
+        {
+            "name": "empowerHER+ Conference",
+            "location": "Potsdam",
+            "date": "2024-11-14"
+        },
+        {
+            "name": "AI [in Prod] London by Weavite",
+            "location": "London",
+            "date": "2024-11-18"
+        },
+        {
+            "name": "Machine Learning Week Europe",
+            "location": "Munich",
+            "date": "2024-11-18"
+        },
+        {
+            "name": "DSC Europe 24",
+            "location": "Belgrade",
+            "date": "2024-11-18"
+        },
+        {
+            "name": "Big Data Conference 2024",
+            "location": "Vilnius",
+            "date": "2024-11-19"
+        },
+        {
+            "name": "Upscale conf",
+            "location": "Malaga",
+            "date": "2024-11-19"
+        },
+        {
+            "name": "Open Conf 2024",
+            "location": "Athens",
+            "date": "2024-11-22"
+        },
+        {
+            "name": "Hackvens",
+            "location": "Lille",
+            "date": "2024-11-22"
+        },
+        {
+            "name": "Conference on AI, Soft Computing and Applications",
+            "location": "London",
+            "date": "2024-11-23"
+        },
+        {
+            "name": "MLCon Berlin",
+            "location": "Berlin",
+            "date": "2024-11-25"
+        },
+        {
+            "name": "ML and AI Model Development and Governance",
+            "location": "Amsterdam",
+            "date": "2024-11-27"
+        },
+        {
+            "name": "Generation AI",
+            "location": "Paris",
+            "date": "2024-12-03"
+        },
+        {
+            "name": "GitOps, DevOps, Platform Engineering, and Innovations",
+            "location": "London",
+            "date": "2024-12-03"
+        },
+        {
+            "name": "The AI Summit",
+            "location": "New York",
+            "date": "11/12/2025"
+        },
+        {
+            "name": "AUTONOMOUS",
+            "location": "Online",
+            "date": "29/01/2025"
+        },
+        {
+            "name": "Global AI Show",
+            "location": "Online",
+            "date": "11/12/2024"
+        },
+        {
+            "name": "ICCV 2025",
+            "location": "Paris, France",
+            "date": "21/10/2025"
+        },
+        {
+            "name": "CVPR 2025",
+            "location": "Nashville, TN",
+            "date": "10/11/2025"
+        },
+        {
+            "name": "TREC 2024",
+            "location": "United States",
+            "date": "18 Nov 2024 - 22 Nov 2024"
+        },
+        {
+            "name": "Dagstuhl Research Meeting",
+            "location": "Germany",
+            "date": "24 Nov 2024 - 27 Nov 2024"
+        },
+        {
+            "name": "NLPIR 2024",
+            "location": "Japan",
+            "date": "13 Dec 2024 - 15 Dec 2024"
+        },
+        {
+            "name": "Dagstuhl-Seminar",
+            "location": "Germany",
+            "date": "06 Jan 2025 - 09 Jan 2025"
+        },
+        {
+            "name": "ICNLP 2025",
+            "location": "China",
+            "date": "21 Mar 2025 - 23 Mar 2025"
+        },
+        {
+            "name": "Japan Robot Week",
+            "location": "Tokyo, Japan",
+            "date": "11-27/09/2024"
+        },
+        {
+            "name": "International Robot Safety Conference",
+            "location": "Cincinnati, Ohio, USA",
+            "date": "01-03/10/2024"
+        },
+        {
+            "name": "Engineering Design Show",
+            "location": "Coventry, UK",
+            "date": "09-10/10/2024"
+        },
+        {
+            "name": "RobotWorld",
+            "location": "Seoul, South Korea",
+            "date": "23-26/10/2024"
+        },
+        {
+            "name": "Humanoids 2024",
+            "location": "Nancy, France",
+            "date": "22-24/11/2024"
+        },
+        {
+            "name": "International Conference on Healthcare Robotics",
+            "location": "Bristol, UK",
+            "date": "17-18/12/2024"
+        },
+        {
+            "name": "International Conference on Mechanical, Robotics and Aerospace Engineering",
+            "location": "Manchester, UK",
+            "date": "16-17/01/2025"
+        },
+        {
+            "name": "European Robotics Forum",
+            "location": "Stuttgart, Germany",
+            "date": "25-27/03/2025"
+        },
+        {
+            "name": "Robotics and Automation",
+            "location": "Birmingham, UK",
+            "date": "25-26/03/2025"
+        },
+        {
+            "name": "Automate",
+            "location": "Detroit, Michigan, USA",
+            "date": "12-15/05/2025"
+        },
+        {
+            "name": "International Conference on Robotics and Automation",
+            "location": "Atlanta, Georgia, USA",
+            "date": "19-23/05/2025"
+        },
+        {
+            "name": "CVPR",
+            "location": "Music City Center, Nashville TN",
+            "date": "Wed June 11th – Sun June 15th, 2025"
+        },
+        {
+            "name": "AISTATS",
+            "location": "Phuket, Thailand",
+            "date": "03/05/2025"
+        },
+        {
+            "name": "NAACL",
+            "location": "Albuquerque, New Mexico, USA",
+            "date": "29/04/2024"
+        },
+        {
+            "name": "ICLR",
+            "location": "Singapore",
+            "date": "24/04/2025"
+        },
+        {
+            "name": "LoG",
+            "location": "Virtual, free to attend",
+            "date": "26/11/2024"
+        },
+        {
+            "name": "ECIR",
+            "location": "Lucca, Tuscany, Italy",
+            "date": "06/04/2025"
+        },
+        {
+            "name": "WACV",
+            "location": "Tucson, Arizona",
+            "date": "28/03/2025"
+        },
+        {
+            "name": "AAMAS",
+            "location": "Detroit, Michigan, USA",
+            "date": "19/05/2025"
+        },
+        {
+            "name": "CHI",
+            "location": "Yokohama, Japan",
+            "date": "26/04/2025"
+        },
+        {
+            "name": "COLING",
+            "location": "Abu Dhabi, UAE",
+            "date": "19/01/2025"
+        },
+        {
+            "name": "WSDM",
+            "location": "Hannover, Germany",
+            "date": "10/03/2025"
+        },
+        {
+            "name": "Iberamia",
+            "location": "Montevideo, Uruguay",
+            "date": "13/11/2024"
+        },
+        {
+            "name": "NeurIPS [Dataset and Benchmarks Track]",
+            "location": "Vancouver, Canada",
+            "date": "09/12/2024"
+        },
+        {
+            "name": "ICRA",
+            "location": "Atlanta, USA",
+            "date": "19/05/2025"
+        },
+        {
+            "name": "AAAI",
+            "location": "Philadelphia, USA",
+            "date": "25/02/2025"
+        },
+        {
+            "name": "BMVC",
+            "location": "Glasgow, UK",
+            "date": "25/11/2024"
+        },
+        {
+            "name": "ICASSP",
+            "location": "Hyderabad, India",
+            "date": "06/04/2025"
+        },
+        {
+            "name": "KIL",
+            "location": "Barcelona, Spain",
+            "date": "25/08/2024"
+        },
+        {
+            "name": "ISMIR",
+            "location": "San Francisco, California, USA",
+            "date": "10/11/2024"
+        },
+        {
+            "name": "CLNLP 2025",
+            "location": "Suzhou, China",
+            "date": "2025-07-18"
+        },
+        {
+            "name": "ICML",
+            "location": "Sydney, Australia",
+            "date": "06/07/2025"
+        },
+        {
+            "name": "NeurIPS",
+            "location": "Vancouver, Canada",
+            "date": "08/12/2025"
+        }
+    ]
+}

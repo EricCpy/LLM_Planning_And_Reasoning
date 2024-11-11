@@ -6,6 +6,11 @@ from llama_cpp import LogitsProcessorList
 from lmformatenforcer import CharacterLevelParser
 from lmformatenforcer.integrations.llamacpp import build_llamacpp_logits_processor
 from typing import Optional
+from pydantic import BaseModel, Field
+from lmformatenforcer import JsonSchemaParser
+
+class Queries(BaseModel):
+    queries: list[str] = Field(description="Google Search Query for Topic")
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0',
@@ -61,3 +66,9 @@ def llamacpp_with_character_level_parser(llm: Llama, prompt: str, character_leve
     output = llm(prompt, logits_processor=logits_processors, max_tokens=4096)
     text: str = output['choices'][0]['text']
     return text
+
+def llm_generate_search_queries(llm: Llama, prompt: str) -> list[str]:
+    prompt = f"{prompt}\nYou MUST answer using the following json schema: {Queries.model_json_schema()}"
+    queries = llamacpp_with_character_level_parser(llm, prompt, JsonSchemaParser(Queries.model_json_schema()))
+    queries = Queries.model_validate_json(queries).queries
+    return queries
